@@ -47,7 +47,7 @@ class cipher:
         return ''.join(message_letter_list)
     
     @staticmethod
-    def encrypt_coloumnar(plainText: str, key: str) -> str:
+    def encrypt_columnar(plainText: str, key: str) -> str:
         len_key = len(key)
         len_plain = len(plainText)
         row = int(ceil(len_plain / len_key))
@@ -68,7 +68,7 @@ class cipher:
         return cipher_text
             
     @staticmethod
-    def decrypt_coloumnar(encryptedText: str, key: str) -> str:
+    def decrypt_columnar(encryptedText: str, key: str) -> str:
         len_key = len(key)
         len_plain = len(encryptedText)
         row = int(ceil(len_plain / len_key))

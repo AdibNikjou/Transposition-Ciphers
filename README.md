@@ -29,7 +29,3 @@ To use the Python implementation, run the `Ciphers_in_python.py` script. The scr
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
